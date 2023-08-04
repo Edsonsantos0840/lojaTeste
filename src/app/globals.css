@@ -17,11 +17,37 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ 
+  
+}
+header{
+  text-align: center;
+  color: aliceblue;
+  background-color: blue;
+  height: 60px;
+}
+header h1{
+  font-size: 3rem;
+}
+main{
+  max-width: 700px;
+  margin: auto;
+}
+.main{
+  max-width: 600px;
+  margin:auto;
+}
+.alinha{
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.456);
+}
+footer h1{
+  font-size: 3rem;
+}
+footer{
+  text-align: center;
+  color: aliceblue;
+  background-color: blue;
+  height: 60px;
 }
